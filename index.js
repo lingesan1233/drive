@@ -170,7 +170,7 @@ app.post("/files/rename", async (req, res) => {
 
 // Root endpoint
 app.get("/", (req, res) => {
-    res.send("Welcome to the Supabase Demo API!");
+    res.send("use this link to access the actual project link : => https://delicate-fudge-4564d9.netlify.app/login");
 });
 
 // Start server
