@@ -1,7 +1,7 @@
 // wrapper for calls to your backend and helper to build public URLs
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:4000";
+const API_URL = import.meta.env.VITE_API_URL || "https://drive-1-aftw.onrender.com";
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || "";
 
 export const api = axios.create({
