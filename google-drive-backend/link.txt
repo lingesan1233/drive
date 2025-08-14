@@ -1,0 +1,2 @@
+frontend link :=> "https://delicate-fudge-4564d9.netlify.app/login"
+backend link :=> "https://drive-1-aftw.onrender.com"
