@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <div className="nav-left">
-        <Link to="/" className="brand">DriveClone</Link>
+        <Link to="/" className="brand">N.O.V.A-DRIVE</Link>
       </div>
       <div className="nav-right">
         {user ? (
