@@ -10,8 +10,8 @@
 
 /* Body */
 body {
-  background: linear-gradient(135deg, #ff6a00, #ee0979);
-  color: #fff;
+  background: #ffffff;
+  color: #333;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,16 +20,16 @@ body {
 /* ===== Header ===== */
 header {
   width: 100%;
-  background: linear-gradient(90deg, #ff6a00, #ff0084, #6a11cb);
+  background: #f8f9fa;
   padding: 15px 40px;
-  color: white;
+  color: #333;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border-bottom: 1px solid #ddd;
 }
 
 header h1 {
@@ -38,6 +38,7 @@ header h1 {
   letter-spacing: 1px;
   cursor: pointer;
   transition: transform 0.3s ease;
+  color: #0056b3;
 }
 
 header h1:hover {
@@ -51,7 +52,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #0056b3;
   font-weight: 500;
   padding: 8px 14px;
   border-radius: 25px;
@@ -59,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 86, 179, 0.1);
   transform: translateY(-2px);
 }
 
@@ -74,11 +75,11 @@ nav a:hover {
 
 /* ===== Card (Login/Signup forms) ===== */
 .card {
-  background: white;
+  background: #fff;
   color: #333;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   width: 100%;
   max-width: 400px;
   text-align: center;
@@ -87,7 +88,7 @@ nav a:hover {
 
 .card h2 {
   margin-bottom: 20px;
-  color: #6a11cb;
+  color: #0056b3;
   font-size: 1.8rem;
 }
 
@@ -107,15 +108,15 @@ input {
 }
 
 input:focus {
-  border-color: #6a11cb;
+  border-color: #0056b3;
   outline: none;
-  box-shadow: 0 0 5px #6a11cb;
+  box-shadow: 0 0 5px rgba(0,86,179,0.3);
 }
 
 /* ===== Buttons ===== */
 button {
-  background: linear-gradient(135deg, #ff6a00, #ee0979);
-  color: white;
+  background: #add8e6; /* light blue */
+  color: #fff;
   padding: 12px;
   border: none;
   border-radius: 8px;
@@ -126,18 +127,19 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background: #0056b3; /* dark blue */
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 /* ===== Footer ===== */
 footer {
-  background: linear-gradient(90deg, #6a11cb, #ff0084, #ff6a00);
+  background: #f8f9fa;
   padding: 15px;
   text-align: center;
   font-size: 0.9rem;
-  color: white;
+  color: #333;
+  border-top: 1px solid #ddd;
 }
 
 /* ===== Animations ===== */

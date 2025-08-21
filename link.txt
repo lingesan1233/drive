@@ -1,4 +1,4 @@
-frontend link :=> "https://delicate-fudge-4564d9.netlify.app/login"
+frontend link :=> "https://chimerical-lolly-94c0e2.netlify.app/login"
 backend link :=> "https://drive-1-aftw.onrender.com"
 frontend git link :=> "https://github.com/lingesan1233/drive/tree/83c9305b9748330227771664a742236c35e65076/google-drive-frontend"
 backend git link :=>"https://github.com/lingesan1233/drive/tree/83c9305b9748330227771664a742236c35e65076/google-drive-backend"
